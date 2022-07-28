@@ -14,7 +14,7 @@ import java.util.List;
 
 public class FileReader {
 
-    public void fileReader() throws IOException {
+    public int[][] loadMatrix() throws IOException {
 
         List<String> lines = new ArrayList<>();
         BufferedReader reader;
@@ -49,8 +49,10 @@ public class FileReader {
 
             linesCount++;
         }
-//efefefefeergrgrgrfrfrfrf
+
         System.out.println(Arrays.deepToString(matrix));
+
+        return matrix;
     }
 
 }
