@@ -50,8 +50,6 @@ public class FileReader {
             linesCount++;
         }
 
-        System.out.println(Arrays.deepToString(matrix));
-
         return matrix;
     }
 
